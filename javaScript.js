@@ -104,3 +104,17 @@ document.querySelector("#bnt11").addEventListener("click", function () {
   let link = "https://wa.me/5511999166560/?text=" + encodeURIComponent(msg);
   window.open(link);
 });
+// batata
+
+document.querySelector("#bnt12").addEventListener("click", function () {
+  let burguer = "uma porção de Batata Frita de 150g!";
+  let msg = geraMensagem(burguer);
+  let link = "https://wa.me/5511999166560/?text=" + encodeURIComponent(msg);
+  window.open(link);
+});
+document.querySelector("#bnt13").addEventListener("click", function () {
+  let burguer = "uma porção de Batata Frita de 300g!";
+  let msg = geraMensagem(burguer);
+  let link = "https://wa.me/5511999166560/?text=" + encodeURIComponent(msg);
+  window.open(link);
+});
