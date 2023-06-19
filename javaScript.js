@@ -9,7 +9,7 @@ function geraMensagem(produto) {
 // MISTO
 
 document.querySelector("#bnt1").addEventListener("click", function () {
-  let burguer = "misto quente!";
+  let burguer = "um misto quente!";
   let msg = geraMensagem(burguer);
   let link = "https://wa.me/5511999166560/?text=" + encodeURIComponent(msg);
   window.open(link);
@@ -18,7 +18,7 @@ document.querySelector("#bnt1").addEventListener("click", function () {
 // XBURGUER
 
 document.querySelector("#bnt2").addEventListener("click", function () {
-  let burguer = "X-BURGUER!";
+  let burguer = "um X-BURGUER!";
   let msg = geraMensagem(burguer);
   let link = "https://wa.me/5511999166560/?text=" + encodeURIComponent(msg);
   window.open(link);
@@ -27,7 +27,7 @@ document.querySelector("#bnt2").addEventListener("click", function () {
 // BAURU
 
 document.querySelector("#bnt3").addEventListener("click", function () {
-  let burguer = "Bauru!";
+  let burguer = "um Bauru!";
   let msg = geraMensagem(burguer);
   let link = "https://wa.me/5511999166560/?text=" + encodeURIComponent(msg);
   window.open(link);
@@ -36,7 +36,7 @@ document.querySelector("#bnt3").addEventListener("click", function () {
 // AMERICANO
 
 document.querySelector("#bnt4").addEventListener("click", function () {
-  let burguer = "Americano!";
+  let burguer = "um Americano!";
   let msg = geraMensagem(burguer);
   let link = "https://wa.me/5511999166560/?text=" + encodeURIComponent(msg);
   window.open(link);
