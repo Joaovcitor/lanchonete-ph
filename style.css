@@ -1,0 +1,169 @@
+* {
+  margin: 0px;
+  padding: auto;
+  text-decoration: none;
+}
+
+.funcionamento {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.horas {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: "Rubik", sans-serif;
+}
+
+h3 {
+  font-family: "Rubik", sans-serif;
+  margin-top: 20px;
+}
+
+.burguer {
+  background: #f4a030;
+  width: 220px;
+  padding: 15px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 50px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 25px;
+}
+
+@media (min-width: 720px) {
+  .media {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+  }
+}
+@media (min-width: 720px) {
+  .burguer {
+    width: 350px;
+    display: flex;
+  }
+}
+
+.texto-descri {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  margin-top: 0px;
+  color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.bnt-produto {
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 25px 0px;
+  color: white;
+  padding: 10px;
+  background: rgb(48, 27, 63);
+  background: linear-gradient(
+    0deg,
+    rgba(48, 27, 63, 1) 24%,
+    rgba(21, 14, 86, 1) 98%
+  );
+  font-size: 15px;
+  border: none;
+  -webkit-box-shadow: 0px -2px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -2px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -2px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.texto-produto {
+  font-size: 20px;
+  margin-top: 0px;
+  font-family: "Greattong Brush", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.produto-burguer {
+  width: 200px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 25px;
+  /* font-family: "Telephone", sans-serif; */
+  font-family: "Essai", sans-serif;
+}
+
+img {
+  width: 5rem;
+  /* margin-left: 30px; */
+  display: flex;
+  justify-content: center;
+}
+
+.topo {
+  background-color: #f4a030;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.texto-topo {
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-family: "Essai", sans-serif;
+}
+
+.rede {
+  background-color: #f4a030;
+  display: block;
+  justify-content: center;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.texto-rede {
+  font-family: "Essai", sans-serif;
+  font-size: 22px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+  flex-direction: row;
+}
+
+.logo-rede1 {
+  width: 55px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.logo-rede2 {
+  width: 55px;
+  display: flex;
+  
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+a {
+  display: block;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-direction: row;
+}
